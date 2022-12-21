@@ -4,7 +4,6 @@ all:
 	rm -rf test_log_dir;
 	rm -rf tests_ebin;
 	rm -rf ebin;
-	rm -rf rebar.config;
 	mkdir tests_ebin;
 	erlc -I include -o tests_ebin tests/*.erl;
 	mkdir ebin;
